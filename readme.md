@@ -12,7 +12,7 @@
 ```
 //main.js
 import $setAspectRatios from 'cltvo-set-aspect-ratios'
-$setAspectRatios($, 'my-ratio')
+$setAspectRatios($, '.my-ratio')//aplica para todos los tags que tenga la clase "my-ratio"
 ```
 
 html: `<div class="my-ratio" data-ratio="16:9"></div>`
