@@ -1,6 +1,6 @@
 {
   "name": "cltvo-set-aspect-ratio",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "jQuery plugin for declaratively setting the aspect ratio of a container",
   "main": "$set-aspect-ratio.js",
   "scripts": {
