@@ -19,7 +19,7 @@ const $setAspectRatios = ($, selector) => {
 
 		if (!(vertical && horizontal)) {return console.error(error, $element);}
 		
-		height = $(window).width() / horizontal * vertical;
+		height = $element.width() / horizontal * vertical;
 		$element.height(height)
 		$element.width('100%')
 
