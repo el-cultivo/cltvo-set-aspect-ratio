@@ -24,7 +24,7 @@ const $setAspectRatios = ($, selector) => {
 		$element.width('100%')
 
 		$(window).on('resize', debounce(() => {
-			height = $(window).width() / horizontal * vertical;
+			height = $element.width() / horizontal * vertical;
 			$element.height(height)
 			$element.width('100%')			
 		}, 100))
